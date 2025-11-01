@@ -4,7 +4,7 @@ function myLineUp(event) {
     let players = this.player.value;
 
     console.log(`Status: ${status}, Date: ${date}, Players: ${players.join(", ")}`);
-    let output = document.addElement("p");
+    let output = document.createElement("p");
     output.textContent = `Status: ${status}, Date: ${date}, Players: ${players.join(", ")}`;
     document.body.appendChild(output);
 }
