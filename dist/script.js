@@ -1,4 +1,6 @@
 function myLineUp(event) {
+    event.preventDefault();
+    
     let status = this.status.value;
     let date = this.gameDate.value;
     let players = [];
